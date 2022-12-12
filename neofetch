@@ -28,7 +28,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-version=7.1.0
+version=7.1.0-cvm
 
 # Fallback to a value of '5' for shells which support bash
 # but do not set the 'BASH_' shell variables (osh).
@@ -786,7 +786,7 @@ image_source="auto"
 #       Artix, Arya, Bedrock, Bitrig, BlackArch, BLAG, BlankOn, BlueLight,
 #       Bodhi, bonsai, BSD, BunsenLabs, Calculate, Carbs, CentOS, Chakra, ChaletOS,
 #       Chapeau, Chrom*, Cleanjaro, ClearOS, Clear_Linux, Clover, Condres,
-#       Container_Linux, Crystal Linux, CRUX, Cucumber, dahlia, Debian, Deepin,
+#       Container_Linux, Crystal Linux, CRUX, Cucumber, "Cvm UI Desktop", dahlia, Debian, Deepin,
 #       DesaOS, Devuan, DracOS, DarkOs, Itc, DragonFly, Drauger, Elementary,
 #       EndeavourOS, Endless, EuroLinux, Exherbo, Fedora, Feren, FreeBSD,
 #       FreeMiNT, Frugalware, Funtoo, GalliumOS, Garuda, Gentoo, Pentoo,
@@ -5146,7 +5146,7 @@ ASCII:
                                 BlackArch, BLAG, BlankOn, BlueLight, Bodhi, bonsai, BSD, BunsenLabs,
                                 Calculate, Carbs, CentOS, Chakra, ChaletOS, Chapeau, Chrom,
                                 Cleanjaro, ClearOS, Clear_Linux, Clover, Condres, Container_Linux,
-                                Crystal Linux, CRUX, Cucumber, dahlia, Debian, Deepin, DesaOS, Devuan,
+                                Crystal Linux, CRUX, Cucumber, \"Cvm UI Desktop\", dahlia, Debian, Deepin, DesaOS, Devuan,
                                 DracOS, DarkOs, Itc, DragonFly, Drauger, Elementary, EndeavourOS, Endless,
                                 EuroLinux, Exherbo, Fedora, Feren, FreeBSD, FreeMiNT, Frugalware,
                                 Funtoo, GalliumOS, Garuda, Gentoo, Pentoo, gNewSense, GNOME, GNU,
@@ -6974,6 +6974,27 @@ o/${c2}--...::-:/::/:-......-::::::-/-...-${c1}:/o
       -/+/:${c2}----..........----${c1}:/+/-
         `:/+//${c2}::--------:::${c1}/+/:`
            `.-://++++++//:-.`
+EOF
+        ;;
+
+        *"Cvm UI Desktop"*)
+            set_colors 5
+            read -rd '' ascii_data <<'EOF'
+${c1}
+
+
+        NNNNNNNNNNNNN            .cONNNN        
+       .MMM'                   cOMMKKMMM        
+       ,MMM                    MK   kMMM        
+       cMMM 'cdddl;                 kMMM        
+       kMMM0K   MMMMx               kMMM        
+                  MMMX              kMMM        
+                  kMMM.             kMMM        
+       000x       NMMM              kMMM        
+        MMMXl;,:oNMMx    OWWO       kMMM        
+           MMMMMMK       .MM.       kMMM   
+
+
 EOF
         ;;
 
